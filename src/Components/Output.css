@@ -1,0 +1,96 @@
+body {
+  background-color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Highlight: Align the body contents */
+  justify-content: center; /* Highlight: Center horizontally */
+  align-items: center; /* Highlight: Center vertically */
+  min-height: 100vh; /* Highlight: Ensure full height for centering */
+}
+
+.resume {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+  word-wrap: break-word; /* Highlight: Ensures long links break within the container */
+  display: inline-block; /* Highlight: Ensures the anchor tag respects the container's width */
+  width: 100%; /* Highlight: Makes sure it stays within the container */
+  overflow-wrap: break-word; /* Highlight: Handles word breaking for very long links */
+}
+
+h2{
+  margin: auto;
+  word-wrap: break-word; /* Highlight: Ensures long links break within the container */
+  display: inline-block; /* Highlight: Ensures the anchor tag respects the container's width */
+  width: 100%; /* Highlight: Makes sure it stays within the container */
+  overflow-wrap: break-word; /* Highlight: Handles word breaking for very long links */
+}
+
+p {
+  margin: 5px 0;
+  color: #666;
+  word-wrap: break-word; /* Highlight: Ensures long links break within the container */
+  display: inline-block; /* Highlight: Ensures the anchor tag respects the container's width */
+  width: 100%; /* Highlight: Makes sure it stays within the container */
+  overflow-wrap: break-word; /* Highlight: Handles word breaking for very long links */
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 18px;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 16px;
+}
+
+a{
+  word-wrap: break-word; /* Highlight: Ensures long links break within the container */
+  display: inline-block; /* Highlight: Ensures the anchor tag respects the container's width */
+  width: 100%; /* Highlight: Makes sure it stays within the container */
+  overflow-wrap: break-word; /* Highlight: Handles word breaking for very long links */
+}
+  
